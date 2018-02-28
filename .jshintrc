@@ -1,0 +1,13 @@
+{
+    "esversion": 6,
+    "strict": "global",
+    "asi": "true",
+    "lastsemic": "true",
+    "supernew": "true",
+    "plusplus": "true",
+    "proto": "true",
+    "browser": "true",
+    "devel": "true",
+    "node": "true",
+    "prototypejs": "true"
+}

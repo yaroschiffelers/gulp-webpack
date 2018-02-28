@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="no-js" lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>WOO, 404</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        
+        <style type="text/css">
+            body, html { font-size: 100%; padding: 0; margin: 0;}
+            body {
+                font-family: sans-serif;
+                text-align: center;
+                color: gray;
+                text-transform: uppercase;
+            }
+            a {
+                color: gray;
+                text-decoration: none;
+            }
+            a:hover {
+                color: lightgray;
+            }
+            canvas {
+              display: block;
+              width: 100vw;
+              height: 100vh;
+              cursor: pointer;
+              z-index: 1; 
+              background-color: white;
+            }
+            .overlay {
+                position:absolute; 
+                top:30%; 
+                left:30%;
+                z-index: 2;
+            }
+            .canvas-wrap { position:relative }
+        </style>
+    </head>
+    <body>
+        <div class="canvas-wrap">
+            <canvas id="c"></canvas>
+            <div class="overlay">
+                <h1>Joe, daar ging iets mis</h1>
+                <h2><a href="/index.html">terug naar onze homepage?</a></h2>
+            </div>
+        </div>
+    </body>
+</html>

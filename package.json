@@ -1,0 +1,56 @@
+{
+  "name": "Gulp-webpack",
+  "version": "0.1.0",
+  "description": "Web developement starter kit",
+  "keywords": [
+    "Gulp",
+    "Webpack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yaroschiffelers/gulp-webpack.git"
+  },
+  "maintainers": [
+    {
+      "name": "Yaro Schiffelers"
+    }
+  ],
+  "scripts": {
+    "gulp": "gulp",
+    "dist": "gulp dist",
+    "babel": "npx babel src/js/main.js --watch --out-file src/js/main-compiled.js",
+    "webpack-dev": "webpack --config webpack.config.js --watch",
+    "webpack-production": "NODE_ENV=production webpack"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "critical": "^1.1.0",
+    "del": "^3.0.0",
+    "fs-extra": "^4.0.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-copy": "^1.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-open": "^2.0.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "node-sass": "^4.5.3",
+    "puppeteer": "^0.12.0",
+    "uglifyjs-webpack-plugin": "^1.1.2",
+    "webpack": "^3.10.0",
+    "webpack-jarvis": "^0.3.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-purifycss": "^0.2.0",
+    "vinyl-paths": "^2.1.0"
+  },
+  "main": "dist/index.html"
+}
